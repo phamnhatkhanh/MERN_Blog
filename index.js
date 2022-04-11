@@ -15,6 +15,7 @@ app.use(express.json()); // allow data is format json.
 app.use("/images", express.static(path.join(__dirname, "/images")));
 
 app.use(express.static(path.join(__dirname, "build")));
+// handel problem: reload -> 404 in heroku
 app.get("/:id", (req, res) => {
   res.sendFile(path.join(__dirname, '/build/index.html'));
 });
