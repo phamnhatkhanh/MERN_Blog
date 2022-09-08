@@ -1,0 +1,20 @@
+
+
+SinglePost -> adjust edit + show icon delete, update.
+
+
+
+
+
+
+
+
+
+
+(?:
+    *Setup:
+        - React: có code -> hiện trắng tươi
+            + do logic: Link.
+        - React router dom:
+            + install <v6 + add từ từ -> ko là trắng tươi.
+        ! Nên dùng phiên bản v5 -> ít bị lỗi(Link, useLocation)
